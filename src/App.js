@@ -33,7 +33,7 @@ function App() {
       <SearchBox
         className='monsters-search-box'
         placeholder='Search a monster'
-        onChangeHanlder={onSearchChange}
+        onChangeHandler={onSearchChange}
       />
       <CardList monsters={filteredMonsters} />
     </div>
